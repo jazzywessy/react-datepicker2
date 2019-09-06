@@ -68,6 +68,9 @@ $hoverColor:#d6f1ff;
     height: 42px;
     border-radius: 50%;
     margin: 0;
+    top: 0;
+    padding: 0;
+    position: relative !important;
 }
 
 .calendarContainer .heading .prev {
@@ -441,12 +444,6 @@ li.rc-time-picker-panel-select-option-disabled:hover {
 .calendarContainer *,
 .datepicker-input {
     font-family: inherit;
-}
-
-.today {
-    button {
-        border: 3px solid #4285f4 !important;
-    }
 }
 
 .jalaali.calendarContainer {
